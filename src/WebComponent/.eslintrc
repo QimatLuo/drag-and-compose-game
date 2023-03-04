@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "functional/functional-parameters": "off",
+    "functional/no-classes": "off",
+    "functional/no-expression-statements": "off",
+    "functional/no-return-void": "off"
+  }
+}
