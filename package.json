@@ -20,6 +20,7 @@
     "vite": "^4.1.0"
   },
   "dependencies": {
+    "@vaadin/icons": "^23.3.8",
     "fp-ts": "^2.13.1",
     "io-ts": "^2.2.20",
     "io-ts-types": "^0.5.19"
