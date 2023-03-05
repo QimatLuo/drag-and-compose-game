@@ -1,0 +1,7 @@
+{
+  "rules": {
+    "functional/functional-parameters": "off",
+    "functional/immutable-data": "off",
+    "functional/no-expression-statements": "off"
+  }
+}
