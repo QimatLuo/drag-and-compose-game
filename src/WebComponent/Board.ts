@@ -186,6 +186,16 @@ function itemOverlap(dragged: HTMLElement, div: Element) {
       IOO.filter((x) => x === div),
       IOO.chainIOK(appendChild(dragged))
     )();
+    pipe(
+      x.target as ItemElement,
+      IOO.fromNullable,
+      IOO.filter(x => x.dataset.id !== dragged.dataset.id),
+      IOO.filter(x => x.tagName === dragged.tagName),
+      IO.chain( x => {
+        console.log(x)
+        return () => x
+      }),
+    )();
     return undefined;
   };
 }
