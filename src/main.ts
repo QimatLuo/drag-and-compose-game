@@ -1,4 +1,5 @@
 import "./style.css";
+import "./a.ts";
 
 import { BoardComponent, BoardElement } from "./WebComponent/Board";
 import { getBoard } from "./api";
